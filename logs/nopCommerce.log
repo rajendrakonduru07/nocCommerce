@@ -1,0 +1,19 @@
+
+2024-07-12 15:06:47 - root - INFO - ======Login to Application started ======
+2024-07-12 15:07:27 - root - INFO - =================Login Completed====================
+2024-07-12 15:07:27 - root - INFO - =================adding new customer started====================
+2024-07-12 15:07:51 - root - INFO - ===========Test_01_Login===========
+2024-07-12 15:07:51 - root - INFO - ===========verification of page title started===========
+2024-07-12 15:07:52 - root - INFO - ======Page title matched======
+2024-07-12 15:07:56 - root - INFO - ======Validation of login started ======
+2024-07-12 15:08:03 - root - INFO - ======User has been login successfully======
+2024-07-12 15:12:45 - root - INFO - ===========Test_02_Add_new_Customer started=========
+2024-07-12 15:12:45 - root - INFO - ======Login to Application started ======
+2024-07-12 15:12:50 - root - INFO - =================Login Completed====================
+2024-07-12 15:12:50 - root - INFO - =================adding new customer started====================
+2024-07-12 15:13:18 - root - INFO - ===========Test_01_Login started===========
+2024-07-12 15:13:18 - root - INFO - ===========verification of page title started===========
+2024-07-12 15:13:20 - root - INFO - ======Page title matched======
+2024-07-12 15:13:24 - root - INFO - ======Validation of login started ======
+2024-07-12 15:13:30 - root - INFO - ===========Test_01_Login Completed===========
+2024-07-12 15:13:30 - root - INFO - ======User has been login successfully======

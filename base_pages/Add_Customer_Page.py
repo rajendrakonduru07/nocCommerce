@@ -20,7 +20,7 @@ class Add_Customer_Page:
     dropdown_Manager_of_vendor_id = "VendorId"
     check_box_active_id = "Active"
     input_box_admincomment_id = "AdminComment"
-    button_save_xpath = "//button[@name='save'] [@type='submit']"
+    button_save_xpath = "//button[@name='save']"
 
 
     def __init__(self,driver):
@@ -78,7 +78,12 @@ class Add_Customer_Page:
         self.driver.find_element(By.ID,self.input_box_admincomment_id).send_keys(admincomment)
 
     def click_save(self):
-        self.driver.find_element(By.ID,self.button_save_xpath).click()
+        try:
+            self.driver.find_element(By.XPATH,self.button_save_xpath).click()
+        except:
+            save_btn = self.driver.find_element(By.XPATH("//button[@name='save']"))
+            self.driver.execute_script("arguments[0].click();", save_btn)
+
 
 
 

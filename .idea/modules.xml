@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PythonInterviewPrograms/.idea/PythonInterviewPrograms.iml" filepath="$PROJECT_DIR$/../PythonInterviewPrograms/.idea/PythonInterviewPrograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nocCommerce.iml" filepath="$PROJECT_DIR$/.idea/nocCommerce.iml" />
     </modules>
   </component>
